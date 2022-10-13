@@ -7,6 +7,6 @@ for elemento in lenguages:
     #Aqui se o elemento for java vai continuar ou seja ele ira pular java '''
 
 for elemento in range(1, 5):
-   print (element)
+   print (elemento)
 
    #nessa funcao ira contar de 1 a 4

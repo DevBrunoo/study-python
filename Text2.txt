@@ -1,0 +1,39 @@
+Em Python, existem tipos de dados internos semelhantes aos de C:
+
+bool,True ou False
+float, numeros reais
+int, inteiros que podem crescer conforme necessario
+str, cordas
+
+Outros tipos em Python incluem:
+
+range, sequencia de numeros
+list, sequecia de valores mutais ou valores que podemos alterar 
+tuple, sequencia de valores imutaveis
+dict, dicionarios, colecao de pares chave/valor, como uma tabela de hash 
+set, coleção de valores unicos ou valores sem duplicatas
+
+Podemos inportar bibliotecas com a funcao:
+
+import cs50 "Basta trocar cs50 pela biblioteca que deseja inportar
+
+Ficaria assim com a importacao das funcoes que voce deseja importa de tal biblioteca
+
+from cs50 import get_float
+from cs50 import get_int
+from cs50 import get_string
+
+Mais simples ainda fazer assim
+
+from cs50 import get_float, get_int, get_string
+
+-------------------------------------------------
+
+Para execuar um programa em Python precisamos executar python hello.py 
+Ou seja colocar Python na frente + o nome do arquivo que deseja que seja executado "o arquivo deve ser um arquivo em python com .py no final"
+
+ Python e o nome de um programa chamado interprete que le nosso codigo e traduz para CPU 
+
+ Python traduz ou seja compila os codigos de cima para baixo, seria praticamente a mesma coisa estarmos lendo o programa em espanhol e traduzindo linha por linha em portugues.
+
+ 

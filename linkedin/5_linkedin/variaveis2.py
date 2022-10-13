@@ -2,7 +2,7 @@ nombre = "Ana"
 
 edad = 20
 
-estatura = 1.60
+estatura = 1.60 
 
 positivo = True
 negativo = False
@@ -18,7 +18,7 @@ print(type(positivo))
 #estatura e do tipo float 
 # positivo e do tipo bool
 
-print("Hola Mundo")
-print("#Hola mundo") #Hola mundo
-print("""Este es un comentario""")
-"""Este es un comentario"""
+#print("Hola Mundo")
+#print("#Hola mundo") #Hola mundo
+#print("""Este es un comentario""")
+#"""Este es un comentario"""

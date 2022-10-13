@@ -4,6 +4,7 @@ from unicodedata import name
 edad = "Ana"
 name = "Bruno"
 nombre = "Smith"
+carr0 = "gol"
 
 print(type(edad))
 print(type(name))
