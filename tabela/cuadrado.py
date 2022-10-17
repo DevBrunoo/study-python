@@ -3,3 +3,5 @@ def area_cuadrado(lado):
 
 def perimetro_cuadrdo(lado):
     return lado * 4
+
+

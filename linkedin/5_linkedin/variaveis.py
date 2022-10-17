@@ -10,6 +10,7 @@ print(type(edad))
 print(type(name))
 print(type(nombre))
 
+print("Hello, {name}")
 #nomes todas esses tipos de variaveis do tipo string mesmo com o nome diferente
 
 name = 20

@@ -12,6 +12,7 @@ print(type(edad))
 print(type(estatura))
 print(type(positivo))
 
+print("Hellow,  ")
 
 #nombre e do tipo int
 # edad e do tipo int

@@ -3,7 +3,7 @@ APELIDO = "Pinto"
 def function():
     print("mi primeira function")
     nombre = "Ana"
-    print(nombre, APELLIDO)
+    print(nombre, APELIDO)
  
 function()
 print(nombre)

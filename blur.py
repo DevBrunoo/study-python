@@ -1,6 +1,4 @@
-#Podemos usar, isso para desfocar uma imagem
-
-from PIL import Image, ImageFilter
+from PIL import Image, ImageFilter  #Podemos usar, isso para desfocar uma imagem
 
 before = Image.open("bridge.bmp")
 after = before.filter(ImageFilter.BoxBlur(10))
