@@ -21,7 +21,8 @@ print(type(age))
 print(type(name))
 print(type(idade))
 
-#Todas essas sao do tipo int "Com isso vemos o que define uma variavel no python e o que esta inscrito na frente"
+#Todas essas sao do tipo int "Com isso vemos o que define uma variavel
+# no python e o que esta inscrito na frente"
 
 #Definimos as variaveis como nome
 

@@ -7,7 +7,10 @@ else:
     print("a es mayor que b") 
 
  '''
-    #Nesse exemplo vemos que nao precisamos colocar function como no JS, e vemos que if e o primeiro e chamamos de else de se nao ou se nao for if e else
+    #Nesse exemplo vemos que nao precisamos colocar function 
+    # como no JS, e vemos que if e o primeiro e chamamos de 
+    # else de se nao ou se nao for if e else
+    #--------------------------------------------------------
 ''' 
 a = True
 

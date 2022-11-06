@@ -5,7 +5,8 @@ En Python, los métodos de las clases deben recibir como primer atributo la vari
 
 ¿Cuál sería la forma correcta de crear un objeto de la clase Fruta?
 
-El pilar de la programación orientada a objetos que nos permite definir las características y funcionalidades de un objeto es:
+El pilar de la programación orientada a objetos que nos permite definir 
+las características y funcionalidades de un objeto es:
 
 abstracción
 
