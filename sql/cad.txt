@@ -22,6 +22,16 @@ Sistema de gerenciamento de banco de dados
 -----------/---///--------/-----------/-------/-----
 
 
+Usando SQL no Mac
+
+1. Baixar e configura docker
+2. No terminal executar: docker pull mcr.microsoft.com/mssql/server:2019-latest
+3. No terminal executar: docker run --name [digite o nome do SQL Server desejado aqui] -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=[digite sua senha para seu banco de dados]' -e 'MSSQL_PID=[digite seu tipo de associação do Docker] ' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+4. Agora aqui para criar o banco de dados : docker run --name [digite o nome do SQL Server desejado aqui] -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=[digite sua senha para seu banco de dados]' -e 'MSSQL_PID=[digite seu tipo de associação do Docker] ' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest                                             Vamos usar esse comando:                             docker run --name SQLServer -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=12345OHdf%e' -e 'MSSQL_PID=Express' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+5. Verifique se o banco esta no doker
+6.  Agora, você precisa baixar e instalar o Azure Data Studio. Essa ferramenta é o equivalente para Mac do SQL Server Management Studio (SSMS).
+7. Digitar -docker ps no terminal para ver a situação 
+8. 
 
 
 
