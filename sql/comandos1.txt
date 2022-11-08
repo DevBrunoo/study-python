@@ -1,0 +1,27 @@
+Criar banco de dados, use esse comando no terminal 
+docker run --name [digite o nome do SQL Server desejado aqui] -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=[digite sua senha para seu banco de dados]' -e 'MSSQL_PID=[digite seu tipo de associação do Docker] ' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+
+Ficaria mais ou menos assim 
+
+docker run --name SQLServer -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=12345OHdf%e' -e 'MSSQL_PID=Express' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+
+
+
+
+Comando para verificar os status do BD.
+
+select 
+DATABASEPROPERTYEX('AdvetureWorks2019', 'Status') AS Status
+
+No AdveturesWorks2019 voce coloca o nome do seu banco de dados. 
+
+Usamos select * from sys.columns  para ver toda a tabela
+o asteristico significa que e todas as colunas agora o from 
+se refere indica a tabela para recuperar dados
+
+select * from sys.columns 
+
+Para usar SQL no mac, voce precisa do docker o que e otimo pois voce  
+ja aprende sobre containers e imagens, para utilizar sql voce 
+precisa baixar uma imagem e gerenciar um container. 
+Voce deve usar Azuere Data Studio para gerenciar seu BD no macOs 
