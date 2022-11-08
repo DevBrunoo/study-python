@@ -1,0 +1,62 @@
+YouTube aula
+
+Banco de dados, sao espacos que servem para armazenar 
+e guarda informacoes. Existe uma diferenca de dados com informacoes 
+embora banco de dados seja utilizado para guarda informacoes ou dados 
+que são retirados do banco de dados que gerao essas informacoes
+porem os dados sao tirados de forma cru ou seja parecido com componentes 
+um exemplo:
+
+Dados: 18/Bruno/Vermelho 
+Informacao: idade 18 do bruno a cor favorita Vermelho
+
+A finalidade de um banco de dados, e armazenar 
+e gerenciar informacoes que sao integradas a eles
+
+SQL e um banco de dados relacional, ou seja tem relacão 
+pense em uma teia de aranha aonde todo ponto tem relacao 
+com o outro ponto por meio da conexao da teia. 
+
+SGBD's e uma sigla para o nome: 
+Sistema de gerenciamento de banco de dados 
+-----------/---///--------/-----------/-------/-----
+
+
+
+
+
+-----------/---///--------/-----------/-------/-----
+
+Conograma
+00:00:00 - Introduction
+00:01:17 - SQL
+00:03:21 - Data Collection
+00:07:46 - Flat File Databases
+00:09:24 - Reading from a CSV
+00:14:26 - Filtering Duplicates
+00:21:21 - Counting Titles
+00:28:53 - Sorting Data
+00:30:26 - Lambda Functions
+00:36:07 - Cleaning Data
+00:39:48 - Regular Expressions
+00:45:50 - Search
+00:48:17 - Relational Databases
+00:51:20 - Create, Read, Update, Delete
+00:53:32 - sqlite3
+00:57:09 - SELECT
+01:01:58 - WHERE
+01:04:37 - DELETE
+01:05:59 - UPDATE
+01:11:31 - Redundancies
+01:18:00 - Table Relationships
+01:27:49 - INSERT
+01:30:10 - Python and SQL
+01:39:55 - shows.db
+01:41:49 - SQL Types
+01:43:11 - Many-to-Many Relationships
+01:48:27 - Indexes
+01:59:14 - JOIN
+02:03:38 - SQL Injection Attacks
+02:11:15 - Race Conditions
+02:20:10 - Transactions
+02:21:26 - This was CS50
