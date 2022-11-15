@@ -1,0 +1,14 @@
+import csv 
+
+counter = 0
+
+with open("favorites.csv", "r") as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        title = row["title"].string().upper()
+        if re.search("OFFICE", title):
+            counter += 1
+            
+print(f"Number of people who like The Office: {counter}") 
+
+
