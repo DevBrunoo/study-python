@@ -8,6 +8,6 @@ with open("favorites.csv", "r") as file:
         
         
 #Esse e um programa para ler o favorites.csv 
-#A referencia file apre o arquivo usando a palavra with que fechara o arquivo 
+#A referencia file abre o arquivo usando a palavra with que fechara o arquivo 
 # Usamos next para pular uma linha 
-# reader vai criar uma variaavel reader que ira ler o arquivo
+# Reader vai criar uma variaavel reader que ira ler o arquivo

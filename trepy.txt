@@ -1,5 +1,5 @@
-Ao trabalhar com dados precisa incialmente de 3 tipos de operacao
-sao essas operacoes: 
+Ao trabalhar com bd precisa incialmente de 3 tipos de operacao
+sao essas operacoes (tags): 
 
 1) CREATE
 2) READ
