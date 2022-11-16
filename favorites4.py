@@ -12,3 +12,5 @@ with open("favorites.csv", "r") as file:
 print(f"Number of people who like The Office: {counter}") 
 
 
+1:01 
+
