@@ -1,0 +1,6 @@
+Antes de poder obter ou manipular qualquer dado no banco SQLite
+e necessario estabelecer uma conexao, existe duas funcoes responsaveis por isso
+
+A funcao sqlite_open() abre um banco de dados SQLite, criando primeiro um BD
+caso ele nao exista e depois o seu prototipo. 
+
