@@ -4,3 +4,6 @@ e necessario estabelecer uma conexao, existe duas funcoes responsaveis por isso
 A funcao sqlite_open() abre um banco de dados SQLite, criando primeiro um BD
 caso ele nao exista e depois o seu prototipo. 
 
+Um programador eficiente ira aproveita todas as oportunidades para se reutilizar um codigo 
+pelo fato de muitas aplicacoes banco de dados exigirem uso de um conjunto central de tarefas
+, existe anplas oportunidades para se reutilizar o codigo
