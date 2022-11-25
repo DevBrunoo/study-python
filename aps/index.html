@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="estilos.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            
+            function almeidacor (){
+                document.getElementById("almeida").style.backgroundColor = "red";
+                document.getElementById("almeidap").style.display = 'block';
+              }
+            function oliveiracor (){
+                document.getElementById("oliveira").style.backgroundColor = "green";
+                document.getElementById("oliveirap").style.display = 'block';
+              }
+            function abravanelcor (){
+                document.getElementById("abravanel").style.backgroundColor = "red";
+                document.getElementById("abravanelp").style.display = 'block';
+              }
+            function zuckerbergcor (){
+                document.getElementById("zuckerberg").style.backgroundColor = "red";
+                document.getElementById("zuckerbergp").style.display = 'block';
+              }
+            function safracor (){
+                document.getElementById("safra").style.backgroundColor = "red";
+                document.getElementById("safrap").style.display = 'block';
+              }
+
+              //Funcao formulario
+
+              function formulario(){
+                  var form1 = document.getElementById('myForm');
+                  if(form1.text.value != 'chato')
+                  {   
+                      alert('acerto a part 2')
+                      document.getElementById("incorreto").style.display = "block";
+                  } else {
+                      document.getElementById("correto").style.display = "block";
+                  }
+              }
+
+            // TODO: Add code to check answers to questions
+        </script>
+    </head>
+    <body>
+        <div class="header" style="background-color: blue;">
+            <h1 onclick="">Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <br>
+                <h3>Qual é: a familia judaica do Bruno?</h3>
+                <!-- TODO: Add multiple choice question here -->
+                    <button onclick="almeidacor()" id="almeida">Almeida</button>
+                    <p style="display:none" onclick="almeidacor()" id="almeidap">Resposta incorreta</p>
+
+
+                    <button onclick="oliveiracor()" id="oliveira">Oliveira</button>
+                    <p style="display:none" onclick="oliveiracor()" id="oliveirap">Resposta esta certa</p>
+
+
+                    <button onclick="abravanelcor()" id="abravanel">Abravanel</button>
+                    <p style="display:none" onclick="abravanelcor()" id="abravanelp">Resposta incorreta</p>
+
+
+                    <button onclick="zuckerbergcor()" id="zuckerberg">Zuckerberg</button>
+                    <p style="display:none" onclick="zuckerbergcor()" id="zuckerbergp">Resposta incorreta</p>
+
+
+                    <button onclick="safracor()" id="safra">Safra</button>
+                    <p style="display:none" onclick="safracor()" id="safrap">Resposta incorreta</p>
+
+                </div>
+            </div>    
+
+            <div class="section">
+                <h2>Part 2: Free Response?</h2>
+                <hr>
+                <br>
+                <h3>O que voce acha sobre o capitalismo compadrio</h3>
+                <form action="" method="post" id="myForm" name="form1">
+                    <input type="text" name="name">
+                    <p style="display:none" onload="" od="incorreta">Resposta incorreta</p>
+                    <p style="display:none" onload="checkform()" id="correta">Resposta correta</p>
+                    <input type="submit" value="Enviar" onClick="checkform()">
+
+                </form>
+                
+               
+                <!-- TODO: Add free response question here -->
+            </div>
+            <br>
+            <hr>
+            <h1>Escolha a ultima parte</h1>
+        </div>
+    </body>
+</html>
+ 
